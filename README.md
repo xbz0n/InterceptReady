@@ -58,20 +58,7 @@ This toolkit includes both the setup script (`frida_installer.sh`) and an enhanc
 |----|---------------|-----------------|
 | macOS | ✅ | Full support |
 | Linux | ✅ | Full support |
-| Windows | ⚠️ | Limited support via WSL |
 
-## Android Compatibility
-
-| Android Version | Compatibility |
-|-----------------|---------------|
-| Android 13 (API 33) | ✅ |
-| Android 12 (API 31-32) | ✅ |
-| Android 11 (API 30) | ✅ |
-| Android 10 (API 29) | ✅ |
-| Android 9 (API 28) | ✅ |
-| Android 8 (API 26-27) | ✅ |
-| Android 7 (API 24-25) | ✅ |
-| Android 6 (API 23) | ✅ |
 
 ## Requirements
 
@@ -87,10 +74,10 @@ git clone https://github.com/xbz0n/InterceptReady.git
 cd InterceptReady
 
 # Make the script executable
-chmod +x frida_installer.sh
+chmod +x InterceptReady.sh
 
 # Run the installer
-./frida_installer.sh
+./InterceptReady.sh
 ```
 
 ## Usage
@@ -99,13 +86,13 @@ chmod +x frida_installer.sh
 
 ```bash
 # Complete setup
-./frida_installer.sh
+./InterceptReady.sh
 
 # Proxy management only
-./frida_installer.sh proxy
+./InterceptReady.sh proxy
 
 # Clear proxy settings
-./frida_installer.sh clear-proxy
+./InterceptReady.sh clear-proxy
 ```
 
 ### SSL Pinning Bypass Usage
