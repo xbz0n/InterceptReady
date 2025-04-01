@@ -21,7 +21,7 @@
 
 InterceptReady automates the setup of Android emulators for security testing by installing Frida, configuring Burp Suite certificates, and setting up proxy settings. The script handles all the complex tasks required to prepare a fully-functional mobile testing environment.
 
-This toolkit includes both the setup script (`frida_installer.sh`) and an enhanced SSL pinning bypass script (`ssl_pinning_bypass.js`) with intelligent handling of various SSL pinning implementations.
+This toolkit includes both the setup script (`InterceptReady.sh`) and an enhanced SSL pinning bypass script (`ssl_pinning_bypass.js`) with intelligent handling of various SSL pinning implementations.
 
 ## Features
 
